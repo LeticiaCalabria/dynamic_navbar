@@ -61,5 +61,35 @@ body {
     background-color: #dcd3e4;
 }
 
+.emoji-container {
+    padding: 20px;
+    background-color: #dcd3e4;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.btn {
+    font-size: 4rem;
+    padding: 15px;
+    background: rgba(255,255,255,.2);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    filter: grayscale();
+    cursor: pointer;
+    transition: filter .2s ease-in-out;
+}
+
+.btn:hover {
+    filter: grayscale(0);
+}
+
+.emoji-name {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
